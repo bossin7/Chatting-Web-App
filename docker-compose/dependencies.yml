@@ -16,7 +16,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: bossin7
   rabbitmq-stomp:
-    image: "bossin7/rabbitmq-stomp:3.6"
+    image: "jorgeacetozi/rabbitmq-stomp:3.6"
     ports:
       - "5672:5672"
       - "15672:15672"
