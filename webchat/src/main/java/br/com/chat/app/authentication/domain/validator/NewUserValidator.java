@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
-import br.com.jorgeacetozi.ebookChat.authentication.domain.model.User;
-import br.com.jorgeacetozi.ebookChat.authentication.domain.repository.UserRepository;
+import br.com.chat.app.authentication.domain.model.User;
+import br.com.chat.app.authentication.domain.repository.UserRepository;
 
 @Component
 public class NewUserValidator implements Validator {
