@@ -10,17 +10,17 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit4.SpringRunner;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.ChatRoom;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.ChatRoomUser;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.InstantMessage;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.InstantMessageBuilder;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.repository.ChatRoomRepository;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.repository.InstantMessageRepository;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.service.ChatRoomService;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.service.InstantMessageService;
-import br.com.jorgeacetozi.ebookChat.integrationTests.test.EbookChatTest;
-import br.com.jorgeacetozi.ebookChat.utils.SystemMessages;
-import br.com.jorgeacetozi.ebookChat.utils.SystemUsers;
+import br.com.chat.app.chatroom.domain.model.ChatRoom;
+import br.com.chat.app.chatroom.domain.model.ChatRoomUser;
+import br.com.chat.app.chatroom.domain.model.InstantMessage;
+import br.com.chat.app.chatroom.domain.model.InstantMessageBuilder;
+import br.com.chat.app.chatroom.domain.repository.ChatRoomRepository;
+import br.com.chat.app.chatroom.domain.repository.InstantMessageRepository;
+import br.com.chat.app.chatroom.domain.service.ChatRoomService;
+import br.com.chat.app.chatroom.domain.service.InstantMessageService;
+import br.com.chat.app.integrationTests.test.EbookChatTest;
+import br.com.chat.app.utils.SystemMessages;
+import br.com.chat.app.utils.SystemUsers;
 
 @RunWith(SpringRunner.class)
 @EbookChatTest
