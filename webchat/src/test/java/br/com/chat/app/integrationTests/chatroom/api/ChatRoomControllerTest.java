@@ -22,8 +22,8 @@ import org.springframework.web.context.WebApplicationContext;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.ChatRoom;
-import br.com.jorgeacetozi.ebookChat.integrationTests.test.EbookChatTest;
+import br.com.chat.app.chatroom.domain.model.ChatRoom;
+import br.com.chat.app.integrationTests.test.EbookChatTest;
 
 @RunWith(SpringRunner.class)
 @EbookChatTest
