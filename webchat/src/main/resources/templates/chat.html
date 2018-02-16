@@ -21,8 +21,8 @@
 
 			<tbody>
 				<tr th:each="chatRoom : ${chatRooms}">
-					<td th:text="${chatRoom.name}">Brazil</td>
-					<td th:text="${chatRoom.description}">Meet brazilian people
+					<td th:text="${chatRoom.name}">Docker</td>
+					<td th:text="${chatRoom.description}">Meet dockers
 						here</td>
 					<td th:text="${#lists.size(chatRoom.connectedUsers)}">0</td>
 					<td><a th:href="|/chatroom/${chatRoom.id}|" th:text="#{chat.chatrooms.join}">Join</a></td>
