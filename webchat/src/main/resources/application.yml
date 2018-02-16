@@ -5,7 +5,7 @@ spring.profiles.active: dev
 spring:
   profiles: dev
   datasource:
-    url: jdbc:mysql://localhost:3306/ebook_chat
+    url: jdbc:mysql://localhost:3306/ebook_chat?useSSL=false
     username: root
     password: root
     testWhileIdle: true
