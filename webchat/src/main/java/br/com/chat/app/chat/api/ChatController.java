@@ -5,8 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.ChatRoom;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.service.ChatRoomService;
+import br.com.chat.app.chatroom.domain.model.ChatRoom;
+import br.com.chat.app.chatroom.domain.service.ChatRoomService;
 
 @Controller
 public class ChatController {
