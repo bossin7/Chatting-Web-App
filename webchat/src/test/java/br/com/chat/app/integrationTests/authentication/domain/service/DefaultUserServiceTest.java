@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import br.com.chat.app.authentication.domain.model.Role;
 import br.com.chat.app.authentication.domain.model.User;
 import br.com.chat.app.authentication.domain.repository.RoleRepository;
-import br.com.chat.app..authentication.domain.repository.UserRepository;
+import br.com.chat.app.authentication.domain.repository.UserRepository;
 import br.com.chat.app.authentication.domain.service.UserService;
 import br.com.chat.app.integrationTests.test.EbookChatTest;
 
