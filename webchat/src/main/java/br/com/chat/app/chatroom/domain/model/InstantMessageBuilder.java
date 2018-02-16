@@ -1,6 +1,6 @@
 package br.com.chat.app.chatroom.domain.model;
 
-import br.com.jorgeacetozi.ebookChat.utils.SystemUsers;
+import br.com.chat.app.utils.SystemUsers;
 
 public class InstantMessageBuilder {
 	
