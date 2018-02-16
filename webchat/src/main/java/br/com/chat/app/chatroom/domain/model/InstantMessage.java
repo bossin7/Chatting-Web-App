@@ -7,7 +7,7 @@ import org.springframework.data.cassandra.mapping.PrimaryKeyColumn;
 import org.springframework.data.cassandra.mapping.Table;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.base.Strings;
-import br.com.jorgeacetozi.ebookChat.utils.SystemUsers;
+import br.com.chat.app.utils.SystemUsers;
 
 @Table("messages")
 public class InstantMessage {
