@@ -2,7 +2,7 @@ package br.com.chat.app.chatroom.domain.service;
 
 import java.util.List;
 
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.InstantMessage;
+import br.com.chat.app.chatroom.domain.model.InstantMessage;
 
 public interface InstantMessageService {
 	
