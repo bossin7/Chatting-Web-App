@@ -7,12 +7,12 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit4.SpringRunner;
-import br.com.jorgeacetozi.ebookChat.authentication.domain.model.Role;
-import br.com.jorgeacetozi.ebookChat.authentication.domain.model.User;
-import br.com.jorgeacetozi.ebookChat.authentication.domain.repository.RoleRepository;
-import br.com.jorgeacetozi.ebookChat.authentication.domain.repository.UserRepository;
-import br.com.jorgeacetozi.ebookChat.authentication.domain.service.UserService;
-import br.com.jorgeacetozi.ebookChat.integrationTests.test.EbookChatTest;
+import br.com.chat.app.authentication.domain.model.Role;
+import br.com.chat.app.authentication.domain.model.User;
+import br.com.chat.app.authentication.domain.repository.RoleRepository;
+import br.com.chat.app..authentication.domain.repository.UserRepository;
+import br.com.chat.app.authentication.domain.service.UserService;
+import br.com.chat.app.integrationTests.test.EbookChatTest;
 
 @RunWith(SpringRunner.class)
 @EbookChatTest
