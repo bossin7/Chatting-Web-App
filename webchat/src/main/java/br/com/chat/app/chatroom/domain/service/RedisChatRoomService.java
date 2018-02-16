@@ -4,12 +4,12 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.ChatRoom;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.ChatRoomUser;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.InstantMessage;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.repository.ChatRoomRepository;
-import br.com.jorgeacetozi.ebookChat.utils.Destinations;
-import br.com.jorgeacetozi.ebookChat.utils.SystemMessages;
+import br.com.chat.app.chatroom.domain.model.ChatRoom;
+import br.com.chat.app.chatroom.domain.model.ChatRoomUser;
+import br.com.chat.app.chatroom.domain.model.InstantMessage;
+import br.com.chat.app.chatroom.domain.repository.ChatRoomRepository;
+import br.com.chat.app.utils.Destinations;
+import br.com.chat.app.utils.SystemMessages;
 
 @Service
 public class RedisChatRoomService implements ChatRoomService {
