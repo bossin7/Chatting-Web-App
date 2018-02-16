@@ -17,16 +17,16 @@ import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.ChatRoom;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.ChatRoomUser;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.InstantMessage;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.InstantMessageBuilder;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.repository.ChatRoomRepository;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.service.ChatRoomService;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.service.InstantMessageService;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.service.RedisChatRoomService;
-import br.com.jorgeacetozi.ebookChat.utils.Destinations;
-import br.com.jorgeacetozi.ebookChat.utils.SystemMessages;
+import br.com.chat.app.chatroom.domain.model.ChatRoom;
+import br.com.chat.app.chatroom.domain.model.ChatRoomUser;
+import br.com.chat.app.chatroom.domain.model.InstantMessage;
+import br.com.chat.app.chatroom.domain.model.InstantMessageBuilder;
+import br.com.chat.app.chatroom.domain.repository.ChatRoomRepository;
+import br.com.chat.app.chatroom.domain.service.ChatRoomService;
+import br.com.chat.app.chatroom.domain.service.InstantMessageService;
+import br.com.chat.app.chatroom.domain.service.RedisChatRoomService;
+import br.com.chat.app.utils.Destinations;
+import br.com.chat.app.utils.SystemMessages;
 
 @RunWith(MockitoJUnitRunner.class)
 public class RedisChatRoomServiceTest {
