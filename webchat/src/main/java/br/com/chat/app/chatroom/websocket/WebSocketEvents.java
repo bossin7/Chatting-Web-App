@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.socket.messaging.SessionConnectEvent;
 import org.springframework.web.socket.messaging.SessionDisconnectEvent;
 
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.ChatRoomUser;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.service.ChatRoomService;
+import br.com.chat.app.chatroom.domain.model.ChatRoomUser;
+import br.com.chat.app.chatroom.domain.service.ChatRoomService;
 
 @Component
 public class WebSocketEvents {
