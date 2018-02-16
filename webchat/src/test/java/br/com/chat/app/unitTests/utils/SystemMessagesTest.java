@@ -6,9 +6,9 @@ import static org.hamcrest.core.Is.is;
 
 import org.junit.Test;
 
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.InstantMessage;
-import br.com.jorgeacetozi.ebookChat.utils.SystemMessages;
-import br.com.jorgeacetozi.ebookChat.utils.SystemUsers;
+import br.com.chat.app.chatroom.domain.model.InstantMessage;
+import br.com.chat.app.utils.SystemMessages;
+import br.com.chat.app.utils.SystemUsers;
 
 public class SystemMessagesTest {
 	
