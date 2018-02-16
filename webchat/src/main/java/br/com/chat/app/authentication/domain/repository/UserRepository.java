@@ -2,7 +2,7 @@ package br.com.chat.app.authentication.domain.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.com.jorgeacetozi.ebookChat.authentication.domain.model.User;
+import br.com.chat.app.authentication.domain.model.User;
 
 public interface UserRepository extends JpaRepository<User, String> {
 
