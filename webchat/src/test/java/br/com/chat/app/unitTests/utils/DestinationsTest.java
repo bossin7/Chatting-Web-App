@@ -5,7 +5,7 @@ import static org.hamcrest.core.Is.is;
 
 import org.junit.Test;
 
-import br.com.jorgeacetozi.ebookChat.utils.Destinations;
+import br.com.chat.app.utils.Destinations;
 
 public class DestinationsTest {
 	
