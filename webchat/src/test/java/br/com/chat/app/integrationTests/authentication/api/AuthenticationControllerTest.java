@@ -17,10 +17,10 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
-import br.com.jorgeacetozi.ebookChat.authentication.domain.model.User;
-import br.com.jorgeacetozi.ebookChat.authentication.domain.repository.UserRepository;
-import br.com.jorgeacetozi.ebookChat.authentication.domain.service.UserService;
-import br.com.jorgeacetozi.ebookChat.integrationTests.test.EbookChatTest;
+import br.com.chat.app.authentication.domain.model.User;
+import br.com.chat.app.authentication.domain.repository.UserRepository;
+import br.com.chat.app.authentication.domain.service.UserService;
+import br.com.chat.app.integrationTests.test.EbookChatTest;
 
 @RunWith(SpringRunner.class)
 @EbookChatTest
