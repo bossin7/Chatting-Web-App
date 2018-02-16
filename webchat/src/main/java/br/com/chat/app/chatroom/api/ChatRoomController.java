@@ -19,11 +19,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.ModelAndView;
 
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.ChatRoom;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.ChatRoomUser;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.InstantMessage;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.service.ChatRoomService;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.service.InstantMessageService;
+import br.com.chat.app.chatroom.domain.model.ChatRoom;
+import br.com.chat.app.chatroom.domain.model.ChatRoomUser;
+import br.com.chat.app.chatroom.domain.model.InstantMessage;
+import br.com.chat.app.chatroom.domain.service.ChatRoomService;
+import br.com.chat.app.chatroom.domain.service.InstantMessageService;
 
 @Controller
 public class ChatRoomController {
