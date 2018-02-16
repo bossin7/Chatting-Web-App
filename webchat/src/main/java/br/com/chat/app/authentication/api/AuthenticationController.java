@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import br.com.jorgeacetozi.ebookChat.authentication.domain.model.User;
-import br.com.jorgeacetozi.ebookChat.authentication.domain.service.UserService;
-import br.com.jorgeacetozi.ebookChat.authentication.domain.validator.NewUserValidator;
+import br.com.chat.app.authentication.domain.model.User;
+import br.com.chat.app.authentication.domain.service.UserService;
+import br.com.chat.app.authentication.domain.validator.NewUserValidator;
 
 @Controller
 public class AuthenticationController {
