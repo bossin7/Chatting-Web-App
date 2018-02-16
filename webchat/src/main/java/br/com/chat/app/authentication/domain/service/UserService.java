@@ -1,6 +1,6 @@
 package br.com.chat.app.authentication.domain.service;
 
-import br.com.jorgeacetozi.ebookChat.authentication.domain.model.User;
+import br.com.chat.app.authentication.domain.model.User;
 
 public interface UserService {
 
