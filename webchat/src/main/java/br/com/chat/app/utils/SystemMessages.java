@@ -1,7 +1,7 @@
 package br.com.chat.app.utils;
 
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.InstantMessage;
-import br.com.jorgeacetozi.ebookChat.chatroom.domain.model.InstantMessageBuilder;
+import br.com.chat.app.chatroom.domain.model.InstantMessage;
+import br.com.chat.app.chatroom.domain.model.InstantMessageBuilder;
 
 public class SystemMessages {
 	
